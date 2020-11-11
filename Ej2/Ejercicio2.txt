@@ -1,0 +1,11 @@
+2) Forma 1:
+Una forma es primero compilar el codigo con gcc, por ejemplo gcc -g fuente.s salida.
+Luego ejecutariamos la salida de la compilacion, ./salida
+y por ultimo escribiriamos en la consola "echo $?" y nos mostrara el valor de retorno
+
+Forma 2:
+Una segunda forma seria utilizando gdb hacer gdb salida
+y correr el programa con "r" o "run", cuando finalice nos
+mostrara el valor de retorno en del programa
+en octal con un mensaje como el siguiente
+"exited with code 0375"

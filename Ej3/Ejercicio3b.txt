@@ -1,0 +1,6 @@
+Si es necesario usar GDB en este caso.
+No podría utilizarse el código de salida como en los ejercicios anteriores.
+Puesto que el código de salida que veriamos corresponde
+al registro %al, pero en este ejercicio nos interesan los valores de 32 bits
+por eso los devolvemos en %eax y para ver el contenido de dicho registro
+debemos utilizar gdb
